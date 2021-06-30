@@ -23,7 +23,7 @@ let foodY = 5
 
 let score = 0
 
-const newSound = new Audio('food.mp3')
+
 
 function drawGame() {
     changeSnakePosition()
@@ -130,7 +130,7 @@ function eatFood() {
         foodY = Math.floor(Math.random()*tileCount)
         tailLength++
         score++
-        newSound.play()
+        //themnhac
     }
     
 }
